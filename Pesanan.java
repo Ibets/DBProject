@@ -28,14 +28,7 @@ public class Pesanan extends javax.swing.JFrame {
     Connection con;
     PreparedStatement pst;
     public void connect(){
-        String connectionUrl =
-                "jdbc:sqlserver://LAPTOP-TNV9R5C1\\MSSQLSERVER03:1433;"
-                        + "database=PickAFood;"
-                        + "user=Basdat;"
-                        + "password=2022;"
-                        + "encrypt=true;"
-                        + "trustServerCertificate=true;"
-                        + "loginTimeout=30;";
+        String connectionUrl = "jdbc:sqlserver://LAPTOP-24D05A2Q:1433;databaseName=PickAFood;user=sa;password=;encrypt=true;trustServerCertificate=true";
 
         try {
             con = DriverManager.getConnection(connectionUrl);
