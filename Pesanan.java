@@ -367,7 +367,7 @@ public class Pesanan extends javax.swing.JFrame {
         String AlamatTujuan=TxtAlamatTujuan.getText();
         String Total=TxtTotal.getText();
         String IdDriver=TxtIdDriver.getText();
-        String kodeR = deft1.getValueAt(SelectIndex, 0).toString();
+        
 
         int response = JOptionPane.showConfirmDialog(this, "Are you sure you want to update this record?", "Confirm",
                 JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
